@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset=utf-8 />
+<script>
+function multiplyBy()
+{
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+        document.getElementById("result").innerHTML = num1 * num2;
+}
+
+function divideBy() 
+{ 
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+document.getElementById("result").innerHTML = num1 / num2;
+}
+function add() 
+{ 
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+document.getElementById("result").innerHTML = num1 + num2;
+}
+function mins() 
+{ 
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+document.getElementById("result").innerHTML = num1 - num2;
+}
+</script>
+</head>
+<body>
+<form>
+fum: <input type="text" id="firstNumber" /><br>
+snum:<input type="text" id="secondNumber" /><br>
+<input type="button" onClick="multiplyBy()" Value="Multiply" />
+<input type="button" onClick="divideBy()" Value="Divide" />
+<input type="button" onClick="add" Value="add" />
+<input type="button" onClick="mins()" Value="mins" />
+</form>
+<p id="result">
+</p>
+</body>
+</html>

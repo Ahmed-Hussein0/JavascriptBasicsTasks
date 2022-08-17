@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>number1 </title>
+
+<script>
+
+const timeStr = '05:00 PM';
+
+const convertTime = timeStr => {
+   const [time, modifier] = timeStr.split(' ');
+   let [hours, minutes] = time.split(':');
+   if (hours === '12') {
+      hours = '00';
+   }
+   if (modifier === 'PM') {
+      hours = parseInt(hours, 10) + 12;
+   }
+   return `${hours}:${minutes}`;
+};
+document.write(convertTime(timeStr));
+
+
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
