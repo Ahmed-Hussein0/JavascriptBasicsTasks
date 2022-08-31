@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "signupUsers": [
+    {
+      "fname": "ahmed",
+      "lname": "husssein",
+      "email": "a.alshaer.a@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "fname": "",
+      "lname": "",
+      "email": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "fname": "cc",
+      "lname": "cv",
+      "email": "bb@",
+      "password": "123",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
